@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    {
+      box-sizing: border-box;
+    }
+    body{
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    /*Style the Header*/
+    header{
+      background-color: navajowhite;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+    }
+    /*Create two columns/boxes that floats next to each other*/
+    nav{
+       float: left;
+  width: 30%;
+  height: 300px;
+        background: lavender;
+  padding: 20px;
+    }
+    nav ul{
+       list-style-type: none;
+  padding: 0;
+}
+    article{
+       float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: sandybrown;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: darkkhaki;
+  padding: 10px;
+  text-align: center;
+  color: blueviolet;
+}
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Layout</title>
+</head>
+<body>
+<h1>Ken Json Cares</h1>
+<p>is built on the experience of peer support initiatives (e.g., in mental health, addiction, homelessness, for women, seniors, and Indigenous peoples) and distinguishes itself by its holistic health approach, regardless of the person's age or health conditions.</p>
+<header>
+  <h2>about us</h2>
+  <p>provides a bridge between health and community through the integration of peers into primary care teams. Peers are individuals with significant life experience who engage as allies in a listening, connecting, and accompanying role in attainment of the life goals set by the individual, at their own pace. The role of peers is distinct from and complementary to those of health care professionals and community workers. </p>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Homeless</a></li>
+      <li><a href="#">Hungry</a></li>
+      <li><a href="#">Sick</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>Homeless</h1>
+    <p>Each week, we go out into Wellington to serve up our healthy meals to the homeless community, using the proceeds from our brownie product to help us gift food. Supporting the community is big passion of mine and I’ve come face to face with the stigma surrounding people living on the streets.</p>
+
+  </article>
+  <article>
+    <h1>Hungry</h1>
+    <p>n this world of abundant resources and huge wealth, hunger cannot be understood simply as a problem of food production. It is also a matter of human relations. Hunger grows out of widespread indifference and exploitation. The goal of ending hunger has been achieved in many places, including places where people have little money. In stable, strong communities, where people care about one another’s well-being, no one goes hungry. That caring is strengthened when people work and play together. This insight tells us the direction we need to take to move toward a world without hunger. The problem of global hunger will be solved when we learn to live together well locally.</p>
+
+  </article>
+  <article>
+    <h1>Sick</h1>
+    <p>As hundreds of thousands of college students return home from spring break and closed campuses, a few of them are bound to have flu-like symptoms. Whether they have COVID-19 or the flu, they should stay away from the rest of the household. The CDC is specifically requesting that many Americans self-quarantine right now, including those who have or are being tested for COVID-19. Although a quarantine sounds like a solitary pursuit, it takes the proverbial village. Here are the supplies and tips you need to prepare a “hot zone” space for an infected person, especially if there are other vulnerable individuals (such as older people and those with other health conditions) in the home. As in Richard Preston’s relevant 1995 thriller, an important goal is keeping the virus contained within a certain area.</p>
+
+  </article>
+</section>
+<footer>
+<p>"The closest thing to being cared for is to care for someone else." – Carson McCullers
+</p>
+</footer>
+
+</body>
+</html>

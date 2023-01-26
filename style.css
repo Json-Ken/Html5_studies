@@ -1,0 +1,67 @@
+p{
+  color: turquoise;
+  font-family: Dialog;
+  font-size: 18px;
+  alignment: center;
+  border-style: groove;
+  shape-margin: revert;
+  shape-margin: 20px;
+
+}
+h1{
+  color: darkmagenta;
+  font-family: Timmana;
+  font-size: 20px;
+  float: contour;
+  animation:reverse;
+  animation-duration: inherit;
+
+}
+h2{
+  color: gold;
+  font-family: Vemana2000;
+  font-size: 18px;
+  kerning-mode: 12px;
+
+}
+button{
+  color: sandybrown;
+  padding: 20px;
+  font-size: 16px;
+  background-color: cyan;
+  border: 0;
+  text-align: justify-all;
+  margin: 12px;
+
+}
+td{
+   border: 2px solid black;
+  padding: 10px;
+}
+th{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  font-family:Timmana;
+  color: blue;
+  border-radius: 10px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+
+}
+vl{
+  color: turquoise;
+  border: 2px dotted lavenderblush;
+  padding: 10px;
+  font-family: KacstQurn;
+  alignment: center;
+
+}
+ol{
+  color: #b3d4fc;
+  background-color: aliceblue;
+
+}

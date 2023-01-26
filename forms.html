@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    label{
+      color: blueviolet;
+      padding: 20px;
+font-size: 20px;
+    }
+    input{
+      background-color: khaki;
+      text-align: left;
+      color: black;
+      border: 12px dot-dash chartreuse;
+    }
+    h2{
+      background-color: lavenderblush;
+      alignment: left;
+      font-size: 25px;
+      font-family: "Century Schoolbook L";
+    }
+form{
+  background-color: lavenderblush;
+  border: 5px dashed gold;
+}
+button{
+  border: dimgrey;
+  box-sizing: content-box;
+  padding: 20px;
+  color: lightsalmon;
+
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body>
+<h2>Students Registration Form</h2>
+<form action="iframe.html" method="post">
+  <label for="Name">Full Names</label>
+  <input type="text" id="Name" placeholder="Enter Your Name"><br>
+  <label for="email">Email Address</label>
+  <input type="email" id="email"placeholder="Enter Your Email Address"><br>
+  <label for="no">Phone Number</label>
+  <input type="text"id="no"placeholder="Enter Your Phone Number"><br>
+  <label for="date">Date Of Birth</label>
+  <input type="date"id="date"><br>
+  <label for="male">Male</label>
+  <input type="radio"id="male"name="gender"><br>
+  <label for="female">Female</label>
+  <input type="radio"id="female"name="gender"><br>
+  <label for="course">Course Taken</label>
+  <select name="course" id="course">
+    <option value="javascript">Javascript</option>
+    <option value="python">Python</option>
+    <option value="web Development">Web Development</option>
+    <option value="andriod">Andriod</option>
+    <option value="fullstack software development">Fullstack Software Development</option>
+    <option value="html 5">Html 5</option>
+    <option value="cyber security">Cyber Security</option>
+  </select><br>
+  <label for="image">Upload Picture</label>
+  <input type="file"id="image"><br>
+  <label for="password">Password</label>
+  <input type="password"id="password" placeholder="Enter Your Password"name="nenosiri"><br>
+  <input type="submit"value="Register Here!!!">
+
+</form>
+<button type="button"onclick="alert('Safari Lab Morning Class')">Bonyeza</buttontype>
+</body>
+</html>
